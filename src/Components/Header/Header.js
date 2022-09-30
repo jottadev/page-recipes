@@ -5,8 +5,8 @@ export default function Header(){
 
   return(
     <>
-      <div>
-        <header>
+      <S.Container>
+        <S.Header>
             <div>
                 <span> RC </span>
             </div>
@@ -25,11 +25,11 @@ export default function Header(){
                     </li>
                 </ul>
             </nav>
-        </header>
-        <div>
+        </S.Header>
+        <S.Logo>
             <h1> Recipes </h1>
-        </div>
-      </div>
+        </S.Logo>
+      </S.Container>
 
 
     </>
