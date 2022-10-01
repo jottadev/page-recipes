@@ -57,4 +57,5 @@ export const Logo = styled.div`
     text-transform: uppercase;
     letter-spacing: 7px;
     color: ##373737;
+    cursor: auto;
 `

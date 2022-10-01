@@ -1,38 +1,49 @@
 import React from 'react'
+import Card1 from '../../Assets/foodcard1.png'
+import Card2 from '../../Assets/foodcard2.png'
+import Card3 from '../../Assets/foodcard3.png'
+import * as S from './Style.js'
+
 export default function Main(){
   return(
     <main>
-        <section>
-            <div>
+        <S.SectionFood>
+            <S.TextHead>
                 <h2> Latest Recipes </h2>
                 <span></span>
-            </div>
-            <div>
-                <div>
-                    <div></div>
+            </S.TextHead>
+            <S.Wrapper>
+                <S.Card>
+                    <figure>
+                        <img src={Card1}/>
+                    </figure>
                     <div>
                         <span></span>
                         <h3> Red Velvet Cake </h3>
                     </div>
-                </div>
+                </S.Card>
 
-                <div>
-                    <div></div>
+                <S.Card>
+                    <figure>
+                        <img src={Card2}/>
+                    </figure>
                     <div>
                         <span></span>
                         <h3> Margherita Pizza </h3>
                     </div>
-                </div>
+                </S.Card>
 
-                <div>
-                    <div></div>
+                <S.Card>
+                    <figure>
+                        <img src={Card3}/>
+                    </figure>
                     <div>
                         <span></span>
                         <h3> Peanut Smoothie </h3>
                     </div>
-                </div>
-            </div>
-        </section>
+                </S.Card>
+            </S.Wrapper>
+        </S.SectionFood>
 
         <section>
             <figure>
