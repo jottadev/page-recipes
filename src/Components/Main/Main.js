@@ -3,6 +3,7 @@ import Card1 from '../../Assets/foodcard1.png'
 import Card2 from '../../Assets/foodcard2.png'
 import Card3 from '../../Assets/foodcard3.png'
 import * as S from './Style.js'
+import './style.css'
 
 export default function Main(){
   return(
@@ -10,51 +11,46 @@ export default function Main(){
         <S.SectionFood>
             <S.TextHead>
                 <h2> Latest Recipes </h2>
-                <span></span>
             </S.TextHead>
             <S.Wrapper>
-                <S.Card>
-                    <figure>
-                        <img src={Card1}/>
+                <div className='card'>
+                    <figure className='food1'>
                     </figure>
-                    <div>
+                    <div className='namefood'>
                         <span></span>
                         <h3> Red Velvet Cake </h3>
                     </div>
-                </S.Card>
+                </div>
 
-                <S.Card>
-                    <figure>
-                        <img src={Card2}/>
+                <div className='card'>
+                    <figure className='food2'>
                     </figure>
-                    <div>
+                    <div  className='namefood'>
                         <span></span>
                         <h3> Margherita Pizza </h3>
                     </div>
-                </S.Card>
+                </div>
 
-                <S.Card>
-                    <figure>
-                        <img src={Card3}/>
+                <div className='card'>
+                    <figure className='food3'>
                     </figure>
-                    <div>
+                    <div  className='namefood'>
                         <span></span>
                         <h3> Peanut Smoothie </h3>
                     </div>
-                </S.Card>
+                </div>
             </S.Wrapper>
         </S.SectionFood>
 
-        <section>
+        <S.SectionAbout>
             <figure>
 
             </figure>
-            <div>
+            <section>
                 <div>
                     <h2> About </h2>
-                    <span></span>
                 </div>
-                <div>
+                <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                     tincidunt, tortor nec rhoncus dictum, lorem massa tempus sem,
                     eu tincidunt libero velit sit amet velit. Nunc in euismod urna.
@@ -65,11 +61,11 @@ export default function Main(){
                     natoque penatibus et magnis dis parturient montes, nascetur
                     ridiculus mus. Ut vestibulum nisl ante, et ultricies sapien
                     facilisis aliquam.
-                </div>
-            </div>
-        </section>
+                </p>
+            </section>
+        </S.SectionAbout>
 
-        <section>
+        <S.SectionSubscribe>
             <div>
                 <h2> Subscribe </h2>
                 <p> Sign up for newsletter </p>
@@ -78,7 +74,7 @@ export default function Main(){
                 <input type="text" name="text" id="text" placeholder="Your email"/>
                 <button type='submit'> Submit </button>
             </form>
-        </section>
+        </S.SectionSubscribe>
 
     </main>
   )

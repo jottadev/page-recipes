@@ -1,0 +1,46 @@
+.card{
+    width: 300px;
+    height: 450px;
+    background: #FFF;
+    box-shadow: 0px 7px 6px #00000029;
+    cursor: pointer;
+}
+
+.food1{
+    height: 225px;
+    background-image: url(../../Assets/foodcard1.png);
+    background-size: cover;
+}
+
+.food2{
+    height: 225px;
+    background-image: url(../../Assets/foodcard2.png);
+    background-size: cover;
+}
+
+.food3{
+    height: 225px;
+    background-image: url(../../Assets/foodcard3.png);
+    background-size: cover;
+}
+
+.namefood{
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #373737;
+
+}
+
+.namefood h3{
+    font-weight: lighter;
+    margin-top: 1rem;
+}
+
+.namefood span{
+    background: #373737;
+    width: 40px;
+    height: 2px;
+}
