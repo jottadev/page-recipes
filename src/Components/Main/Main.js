@@ -71,7 +71,7 @@ export default function Main(){
                 <p> Sign up for newsletter </p>
             </div>
             <form action="#">
-                <input type="text" name="text" id="text" placeholder="Your email"/>
+                <input type="text" name="text" id="text" placeholder="Your email" required/>
                 <button type='submit'> Submit </button>
             </form>
         </S.SectionSubscribe>

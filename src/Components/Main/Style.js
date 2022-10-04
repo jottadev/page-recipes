@@ -9,7 +9,7 @@ export const SectionFood = styled.section`
 
 export const TextHead = styled.div`
     
-    height: 40vh;
+    height: 30vh;
 
     display: flex;
     align-items: center;
@@ -42,8 +42,7 @@ export const Wrapper = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     gap: 3rem;
-
-    height: 80vh;
+    padding: 5rem;
 
 `
 
@@ -55,11 +54,21 @@ export const SectionAbout = styled.section`
     flex-direction: row;
     justify-content: center;
 
+    @media screen and (max-width: 699px) {
+        flex-direction: column;
+    }
+
+
     figure{
         width: 50vw;
         height: 80vh;
         background-image: url(${CardBackground});
         background-size: cover;
+        background-position: center;
+
+        @media screen and (max-width: 699px) {
+            width: 100vw;
+        }
     }
 
     section{
@@ -70,6 +79,10 @@ export const SectionAbout = styled.section`
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        @media screen and (max-width: 699px) {
+            width: 100vw;
+        }
     }
 
     h2{
@@ -97,6 +110,10 @@ export const SectionAbout = styled.section`
         width: 30vw;
         text-align: justify;
         font-size: 1rem;
+
+        @media screen and (max-width: 699px) {
+            width: 60vw;
+        }
     }
 `
 
@@ -130,7 +147,7 @@ export const SectionSubscribe = styled.section`
         gap: 2rem;
 
         input{
-            width: 30vw;
+            width: 460px;
             height: 9vh;
             background: #EFF1EE;
             border: 0;
@@ -138,16 +155,28 @@ export const SectionSubscribe = styled.section`
             padding: 0 1rem 0 1rem;
             color: #373737;
             font-size: 1rem;
+
+            @media screen and (max-width: 499px) {
+                width: 90vw;
+            }
         }
 
         button{
-            width: 10vw;
+            width: 155px;
             height: 7vh;
             cursor: pointer;
             background: #DFE4DE;
             border: 4px solid #373737;
             text-transform: uppercase;
             letter-spacing: 2px;
+
+            @media screen and (max-width: 699px) {
+                width: 460px;
+            }
+
+            @media screen and (max-width: 499px) {
+                width: 90vw;
+            }
 
             :hover{
                 transition: .3s ease-in-out;

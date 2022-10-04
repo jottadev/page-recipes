@@ -19,6 +19,12 @@ export const Header = styled.header`
     padding: 0 2rem;
     
 
+    nav{
+        @media screen and (max-width: 999px) {
+            display: none;
+        }
+    }
+
     span{
         font-size: 2rem;
         font-weight: 600;
@@ -58,4 +64,34 @@ export const Logo = styled.div`
     letter-spacing: 7px;
     color: ##373737;
     cursor: auto;
+
+    @media screen and (max-width: 499px) {
+        font-size: 2rem;
+    }
+`
+
+export const Menu = styled.div`
+
+    display: none;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+    gap: 5px;
+    cursor: pointer;
+
+    @media screen and (max-width: 999px) {
+        display: flex;
+    }
+
+
+    div{
+        background: #373737;
+        width: 40px;
+        height: 5px;
+    }
+    
+
+`
+
+export const MenuResponsive = styled.div`
+    display: none;
 `
