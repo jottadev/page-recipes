@@ -19,38 +19,20 @@ export default function Header(){
             <nav>
                 <ul>
                     <li>
-                        <a href='#'> About </a>
+                        <a href='#about'> About </a>
                     </li>
 
                     <li>
-                        <a href='#'> Recipes </a>
+                        <a href='#recipes'> Recipes </a>
                     </li>
 
                     <li>
-                        <a href='#'> Subscribe </a>
+                        <a href='#subscribe'> Subscribe </a>
                     </li>
                 </ul>
             </nav>
         </S.Header>
-
-        <S.MenuResponsive>
-              <nav>
-                  <ul>
-                      <li>
-                          <a href='#'> About </a>
-                      </li>
-
-                      <li>
-                          <a href='#'> Recipes </a>
-                      </li>
-
-                      <li>
-                          <a href='#'> Subscribe </a>
-                      </li>
-                  </ul>
-              </nav>
-            </S.MenuResponsive>
-
+        
         <S.Logo>
             <h1> Recipes </h1>
         </S.Logo>

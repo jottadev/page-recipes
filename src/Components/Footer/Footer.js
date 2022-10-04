@@ -10,19 +10,19 @@ export default function Footer(){
     <S.Footer>
 
         <S.SocialMedias>
-            <a href='#'>
+            <a href='https://www.instagram.com/' rel='external' target='_blank'>
                 <img src={instagram} alt=""/>
             </a>
 
-            <a href='#'>
+            <a href='https://twitter.com/home' rel='external' target='_blank'>
                 <img src={twitter} alt=""/>
              </a>
 
-            <a href='#'>
+            <a href='https://pt-br.facebook.com/' rel='external' target='_blank'>
                 <img src={facebook} alt=""/>
             </a>
 
-            <a href='#'>
+            <a href='https://br.pinterest.com/' rel='external' target='_blank'>
                 <img src={pinterest} alt=""/>
             </a>
         </S.SocialMedias>
@@ -31,15 +31,15 @@ export default function Footer(){
             <nav>
                 <ul>
                     <li>
-                        <a href='#'> About </a>
+                        <a href='#about'> About </a>
                     </li>
 
                     <li>
-                        <a href='#'> Recipes </a>
+                        <a href='#recipes'> Recipes </a>
                     </li>
 
                     <li>
-                        <a href='#'> Subscribe </a>
+                        <a href='#subscribe'> Subscribe </a>
                     </li>
                 </ul>
             </nav>
