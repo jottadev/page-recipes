@@ -1,7 +1,4 @@
 import React from 'react'
-import Card1 from '../../Assets/foodcard1.png'
-import Card2 from '../../Assets/foodcard2.png'
-import Card3 from '../../Assets/foodcard3.png'
 import * as S from './Style.js'
 import './style.css'
 
